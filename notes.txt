@@ -1,0 +1,8 @@
+Set-ExecutionPolicy Unrestricted -Scope Process
+
+venv\Scripts\Activate.ps1  # to activate venv
+
+streamlit run main.py # to activate website
+
+python langchain_helper.py
+
